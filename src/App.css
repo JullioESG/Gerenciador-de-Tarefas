@@ -1,0 +1,168 @@
+.Tarefas {
+  width: 100vw;
+  height: 100vh;
+  background-color: #64748b;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.Escopo {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  font-size: 30px;
+  line-height: 2.25rem;
+  color: rgb(241, 245, 249);
+  font-weight: bold;
+  text-align: center;
+}
+
+.List {
+  display: flex;
+  gap: 8px;
+}
+
+.ListUN {
+  padding: 24px;
+  background-color: #f1f5f9;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);  
+}
+
+.ListUN > * + * {
+  margin-top: 1rem;
+}
+
+.btn {
+  background-color: rgb(148, 163, 184);
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 0.375rem;
+  width: 100%;  
+  text-align: left;
+  text-decoration: line-through;
+  
+}
+
+#btndnv {
+  background-color: rgb(148, 163, 184);
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 0.375rem;
+  width: 100%;  
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;  
+}
+
+.btn2 {
+  background-color: rgb(148, 163, 184);
+  padding: 8px;
+  border-radius: 0.375rem;
+  color: #ffffff;  
+}
+
+.btn3 {
+  background-color: rgb(148, 163, 184);
+  padding: 8px;
+  border-radius: 0.375rem;
+  color: #ffffff;   
+}
+
+.info {
+  padding: 24px;
+  background-color: #f1f5f9;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);  
+}
+
+.info > * + * {
+  margin-top: 1rem;
+}
+
+.box {
+  border: 1px solid black;
+  border-color: #cbd5e1;
+  outline: 2px solid #94a3b8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.box2 {
+  border: 1px solid black;
+  border-color: #cbd5e1;
+  outline: 2px solid #94a3b8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.btn4 {
+  background-color: #64748b;
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+}
+
+.Escopo > * + * {
+  margin-top: 1rem;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #64748b; 
+  padding: 24px; 
+}
+
+.TD {
+  background-color: rgb(148, 163, 184);
+  padding: 16px;
+  border-radius: 0.375rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.tit {
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.desc {
+  color: #ffffff;
+}
+
+.backbtn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.btn5 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #64748b; 
+  color: rgb(241,245,249);
+  
+}
